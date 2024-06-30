@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 0.75rem;
+  transform: translate(-50%, 0);
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "europa", sans-serif;
+}
+.header__rightContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.headerMenu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.headerMenu__listItem {
+  font-weight: 400;
+  font-style: normal;
+}
+.headerMenu__listItemLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerSearch__imgContent {
+  max-width: 36px;
+  max-height: 36px;
+}
+.headerSearch__img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerCouponContent {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  line-height: 1;
+  padding: 19px 10px;
+}/*# sourceMappingURL=Header.css.map */

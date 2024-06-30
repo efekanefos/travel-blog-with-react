@@ -1,0 +1,39 @@
+.heroContent{
+    width: 100%;
+    height: 100%;
+    min-height:100vh;
+    background-image: url(../images/HeroImages/hero_background_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroInfo__content {
+    text-align: center;
+    font-family: "europa", sans-serif;
+    color: #fff;
+
+}
+.heroInfo{
+    &__title{
+        font-size: 64px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__description{
+        font-size: 36px;
+    }
+    &__button{
+        display: inline-block;
+        font-size: 20px;
+        color: #121416;
+        background-color: #fff;
+        width: 320px;
+        line-height: 1;
+        padding: 17px 0;
+        text-decoration: none;
+        margin-top:2rem ;    
+    }
+}
